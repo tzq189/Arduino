@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arduino World</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0078d7;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #005bb5;
+      color: white;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .product {
+      background: white;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .product h2 {
+      margin: 0.5rem 0;
+    }
+    .product p {
+      margin: 0.5rem 0;
+    }
+    .product button {
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #005bb5;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arduino World</h1>
+    <p>Innovative Arduino Projects at Your Fingertips</p>
+  </header>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </nav>
+  <div class="container" id="products">
+    <h2>Our Projects</h2>
+    <div class="product">
+      <img src="robot-car.jpg" alt="Robot Car">
+      <h2>Robot Car</h2>
+      <p>A fully functional robot car powered by Arduino.</p>
+      <button>Buy Now</button>
+    </div>
+    <div class="product">
+      <img src="home-automation.jpg" alt="Home Automation">
+      <h2>Home Automation Kit</h2>
+      <p>Control your home devices with this Arduino-based kit.</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@arduinoworld.com</p>
+    <p>Phone: +1234567890</p>
+  </div>
+  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>Arduino World is your destination for innovative Arduino-based projects. From robotics to home automation, we create projects that inspire.</p>
+  </div>
+  <footer>
+    <p>&copy; 2025 Arduino World. All rights reserved.</p>
+  </footer>
+</body>
+</html>
